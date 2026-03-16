@@ -44,6 +44,8 @@ You can evaluate the model following:
 ```bash
 bash tools/dist_test.sh configs/StereoMV2d/exp/stream_r50_frcnn_1408x512_ep24.py work_dirs/stream_r50_frcnn_1408x512_ep24/latest.pth 8 --eval bbox
 ```
+## Weights
+We give the pre-trained weights of config "stream_r50_frcnn_1408x512_ep24.py" : [R50ep24_train](https://drive.google.com/file/d/1To9w7DSfLH3pNs0IbooNUqEXwuN-826k/view?usp=drive_link).
 
 ## Acknowledgement
 Many thanks to the authors of [mmdetection3d](https://github.com/open-mmlab/mmdetection3d), [petr](https://github.com/megvii-research/PETR/tree/main) and [TOC3D](https://github.com/DYZhang09/ToC3D).
